@@ -1,10 +1,12 @@
-# 📚 Về dự án - Library management website - Vbrary
+# 📚 Về dự án - Library management project - Vbrary
 
 Một hệ thống quản lý thư viện giúp quản lý sách, độc giả, mượn trả sách giải quyết vấn đề bất cập khi quản lý thủ công thư viện
 
 ## 📌 I. Một số bài toán đã giải quyết
 
-### Thông báo người dùng khi sắp đến hạn trả sách
+### 1. Thông báo người dùng khi sắp đến hạn trả sách
+
+---
 
 **Bài toán**
 - Người dùng thường quên hạn trả sách, dẫn đến quá hạn và khó quản lý
@@ -29,7 +31,7 @@ Một hệ thống quản lý thư viện giúp quản lý sách, độc giả, 
 
 ---
 
-### II. Tính năng chính
+## II. Tính năng chính
 - Hỗ trợ gửi email khi người dùng quá hạn trả sách
 - Quản lý sách (thêm, sửa, xoá, tìm kiếm)
 - Quản lý người dùng (đăng ký, cập nhật thông tin, xoá)
@@ -38,68 +40,76 @@ Một hệ thống quản lý thư viện giúp quản lý sách, độc giả, 
 - Cung cấp một số thống kê dưới dạng số liệu và bảng biểu về tình hình thư viện: biến động mượn trả, thống kê sách theo lượt mượn
 - Cung cấp 1 Chat App đơn giản
 - Xác thực bằng JWT, refresh token
-- Tải file .pdf, .xlsx chứa thông tin sách và tác giả
+- Tải file .pdf, .xlsx
+
 
 ## 🛠️ III. Công nghệ nổi bật
-     Next.js, TypeScript, Tailwind CSS, Zustand, Ant Design, Framer motion, React Query
+    Frontend: Next.js, TypeScript, Tailwind CSS, Zustand, Ant Design, React Query
+    Backend:  Node.js, Express.js, TypeScript, MongoDB
 
 ## 🎬 IV. Demo 
 
 <table>
   <tr>
-    <td><img src="./public/demo/login.png" width="500"/></td>
-    <td><img src="./public/demo/home.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/login.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/home.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./public/demo/modal.png" width="500"/></td>
-    <td><img src="./public/demo/author.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/modal.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/author.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./public/demo/author-detail.png" width="500"/></td>
-    <td><img src="./public/demo/user-detail.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/author-detail.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/user-detail.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./public/demo/book.png" width="500"/></td>
-    <td><img src="./public/demo/chat app.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/book.png" width="500"/></td>
+    <td><img src="./frontend/public/demo/chat app.png" width="500"/></td>
   </tr>
 </table>
 
-## 📌 V. Hướng Dẫn Cài Đặt và Chạy Dự Án
+## V. Hướng dẫn cài đặt
 
-1. Clone source
-   ```bash
-   git clone https://github.com/helloVietTran/library-management-fe
-   cd library-management-fe
-   ```
+### 1. Cài đặt Bun (bỏ qua nếu đã có Bun)
 
-2. Nếu đã cài đặt Bun, bỏ qua bước này
-   
-      💻 **Nếu sử dụng macOS, Linux, hoặc WSL**
+💻 **Nếu sử dụng macOS, Linux, hoặc WSL**
 
-     Dán dòng lệnh này vào terminal (macOS, Linux, hoặc WSL):
-     
-     ```bash
-          curl -fsSL https://bun.sh/install | bash
-     ```
-     
-     💻 **Nếu là windows, dán dòng lệnh vào cmd:**
-    ```bash
-          powershell -c "irm bun.sh/install.ps1|iex"
-     ```
-    
-     Hoặc cài thông qua npm:
-     ```bash
-          npm install -g bun
-     ```
-3. Sau khi cài thành công bun, chạy lệnh sau trong terminal visual studio code ở thư mục dự án 
-     ```bash
-     bun install
-     bun run dev
-     ```
+Dán dòng lệnh này vào terminal (macOS, Linux, hoặc WSL):
+
+```bash
+    curl -fsSL https://bun.sh/install | bash
+```
+
+💻 **Nếu là windows, dán dòng lệnh vào cmd:**
+```bash
+    powershell -c "irm bun.sh/install.ps1|iex"
+```
+
+Hoặc cài thông qua npm:
+```bash
+    npm install -g bun
+```
 
 
+### 2. Clone source code
 
-   
-    
-   
-   
+```bash
+  git clone https://github.com/helloVietTran/library-management-project
+  cd library-management-project
+```
+
+
+### 3. Cài đặt thư viện và chạy backend
+```bash
+  cd backend
+  npm install
+  npm run dev
+```
+
+
+### 4. Cài đặt thư viện và chạy frontend
+```bash
+  cd frontend
+  bun install
+  bun run dev
+```
