@@ -51,20 +51,20 @@ Một hệ thống quản lý thư viện giúp quản lý sách, độc giả, 
 
 <table>
   <tr>
-    <td><img src="./frontend/public/demo/login.png" width="500"/></td>
-    <td><img src="./frontend/public/demo/home.png" width="500"/></td>
+    <td><img src="./demo/login.png" width="500"/></td>
+    <td><img src="./demo/home.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./frontend/public/demo/modal.png" width="500"/></td>
-    <td><img src="./frontend/public/demo/author.png" width="500"/></td>
+    <td><img src="./demo/modal.png" width="500"/></td>
+    <td><img src="./demo/author.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./frontend/public/demo/author-detail.png" width="500"/></td>
-    <td><img src="./frontend/public/demo/user-detail.png" width="500"/></td>
+    <td><img src="./demo/author-detail.png" width="500"/></td>
+    <td><img src="./demo/user-detail.png" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="./frontend/public/demo/book.png" width="500"/></td>
-    <td><img src="./frontend/public/demo/chat app.png" width="500"/></td>
+    <td><img src="./demo/book.png" width="500"/></td>
+    <td><img src="./demo/chat app.png" width="500"/></td>
   </tr>
 </table>
 
