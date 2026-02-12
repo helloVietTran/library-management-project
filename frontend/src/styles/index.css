@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import 'tailwindcss';
+@import './app.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito';
+}
+
+@theme {
+  --color-primary: #25396f;
+
+  /* Text colors */
+  --color-text-variant-1: #333;
+  --color-text-variant-2: #1e1915;
+  --color-text-variant-3: #555252;
+  --color-heading: #1e1915;
+
+  /* Link colors */
+  --color-link: #435ebe;
+  --color-link-hover: #364b98;
+
+  /* Icon & input */
+  --color-icon: #7c8db5;
+  --color-input: rgba(35, 28, 99, 0.7);
+
+  /* Backgrounds */
+  --color-main-bg: #f2f6ff;
+  --color-sidebar-item-bg: #435ebe;
+  --color-navigation-bg: #faf8f6;
+
+  --color-divider: #cfccc9;
+
+  /* Message/Conversation UI */
+  --color-coversation-bg: #dcdcdc;
+  --color-conversation-bg-hover: #c8c8c8;
+  --color-message-container-bg: #f9fafb;
+  --color-message-container-border: #e5e7eb;
+
+  --color-more-button-bg: #a7d8d2;
+  --color-more-button-bg-hover: #4b4b4b;
+  --color-more-icon: #b0b0b0;
+
+  /* Shadows */
+  --shadow-primary: 0 0 0 0.25rem rgba(67, 94, 190, 0.25);
+}
